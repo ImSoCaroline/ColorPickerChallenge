@@ -8,7 +8,7 @@ const title = "Color Picker";
 class App extends Component {
   render() {
 
-    const colorPickerOptions = ["red", "#4f66ef", "#fff777", "aquamarine", "pink"];
+    const colorPickerOptions = ["yellow", "green", "red", "blue", "white"];
     let initialSelectedColor = colorPickerOptions[0];
     return (
       <div>
