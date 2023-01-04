@@ -9,7 +9,7 @@ class App extends Component {
   render() {
 
     const colorPickerOptions = ["yellow", "green", "red", "blue", "white"];
-    let initialSelectedColor = colorPickerOptions[0];
+    let initialSelectedColor = "black";
     return (
       <div>
         <nav className="app-header layout-row align-items-center justify-content-center">
