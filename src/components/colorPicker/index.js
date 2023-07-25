@@ -4,7 +4,7 @@ const classNames = require('classnames');
 
 const ColorPicker = ({ colorPickerOptions }) => {
 
-  let [selectedColor, setSelectedColor] = useState(colorPickerOptions[0]);
+  let [selectedColor, setSelectedColor] = useState("black");
 
   return (
     <div>
